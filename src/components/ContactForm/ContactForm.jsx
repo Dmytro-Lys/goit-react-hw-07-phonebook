@@ -3,7 +3,6 @@ import css from './ContactForm.module.css';
 import {useSelector, useDispatch } from "react-redux";
 import { addContact } from 'redux/operations';
 import { selectContacts } from 'redux/selectors';
-// import { nanoid } from "nanoid";
 import Notiflix from 'notiflix';
 import 'notiflix/src/notiflix.css';
 
